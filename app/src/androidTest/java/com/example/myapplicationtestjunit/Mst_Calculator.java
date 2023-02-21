@@ -25,7 +25,7 @@ public class Mst_Calculator extends Utility_Functions{
     @Test
     public void mst_Operations() throws Exception {
         // Context of the app under test.
-    /// testing
+
 
         //Loops for run the programm
         int i;
