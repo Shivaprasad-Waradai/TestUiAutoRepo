@@ -15,9 +15,7 @@ import org.junit.runner.RunWith;
 public class Mst_Settings extends Utility_Functions{
     private UiDevice device;
 
-    public Mst_Settings(UiDevice uiDevice) {
-        super(uiDevice);
-    }
+
 
     @Before
     public void setUp() throws Exception {
@@ -35,7 +33,7 @@ public class Mst_Settings extends Utility_Functions{
 
 
         int i;
-        for(i=1;i<=1;i++) {
+        for(i=1;i<=Mst_Settings;i++) {
             mst_Settings();
             System.out.println(" **********************MST_Settings " + i);
         }

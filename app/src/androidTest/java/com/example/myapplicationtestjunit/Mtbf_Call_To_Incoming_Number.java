@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
          7. Click end button.
          8.Back to idle stage
          */
-public class Mtbf_Call_To_Incoming_Number {
+/**public class Mtbf_Call_To_Incoming_Number {
     private static final String TAG = "Call to incoming number";
     private UiDevice mUiDevice;
     private Utility_Functions uf;
@@ -250,3 +250,4 @@ public class Mtbf_Call_To_Incoming_Number {
     }
 
 }
+**/

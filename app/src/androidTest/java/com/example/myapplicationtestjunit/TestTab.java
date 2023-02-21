@@ -1,7 +1,11 @@
 package com.example.myapplicationtestjunit;
 
+import static com.example.myapplicationtestjunit.Utility_Fun.ufMenu_srch_App;
+
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
+//import android.support.test.InstrumentationRegistry;
+//import android.support.test.runner.AndroidJUnit4;
 import android.support.test.uiautomator.UiDevice;
 import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiSelector;
@@ -11,9 +15,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
-public class Mst_Calculator extends Utility_Functions{
+public class TestTab extends Utility_Functions{
     private UiDevice device;
-
 
     @Before
     public void setUp() throws Exception {
@@ -29,7 +32,7 @@ public class Mst_Calculator extends Utility_Functions{
 
         //Loops for run the programm
         int i;
-        for(i=1;i<=Mst_Calculator;i++){
+        for(i=1;i<=2;i++){
             mst_Calculator();
             System.out.println(" **********************MST_Calculator " + i);
         }

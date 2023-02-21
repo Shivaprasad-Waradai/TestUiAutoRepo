@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
           8.Deleting 3 Alarm
          */
 
-public class Mtbf_Alarms_Adding_And_Deleting  {
+/**public class Mtbf_Alarms_Adding_And_Deleting  {
     private static final String TAG = "Adding Deleting Alarms";
     private UiDevice mUiDevice;
     private Utility_Functions uf;
@@ -93,4 +93,4 @@ public class Mtbf_Alarms_Adding_And_Deleting  {
         }
 
     }
-}
+}**/

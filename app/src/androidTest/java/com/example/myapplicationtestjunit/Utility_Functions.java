@@ -19,15 +19,15 @@ public class Utility_Functions extends Device_Veriables  {
     public void ufMenu_srch_App(String AppName) throws Exception {
         try {
 
-            UiObject device_main_menu_Key = new UiObject(new UiSelector()
-                    .resourceId(DEVICE_MAIN_MENU_resourceId));//Frontier Veriable Values are present in Device_Veriable Class
+           UiObject device_main_menu_Key = new UiObject(new UiSelector()
+               .resourceId(DEVICE_MAIN_MENU_resourceId));//Frontier Veriable Values are present in Device_Veriable Class
 
             UiObject search_App = new UiObject(new UiSelector()
                     .resourceId(DEVICE_SEARCH_APP_FROM_MAIN_MENU_resourceId));//Frontier
 
 
             UiObject click_on_App = new UiObject(new UiSelector()
-                    .className("android.widget.TextView").index(1));//Frontier
+                    .className("android.widget.TextView").index(0));//Frontier
             UiObject click_on_App1 = new UiObject(new UiSelector()
                     .className("android.widget.TextView").text("Settings"));//Frontier
 

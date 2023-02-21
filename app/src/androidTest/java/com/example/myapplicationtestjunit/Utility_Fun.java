@@ -1,16 +1,18 @@
 package com.example.myapplicationtestjunit;
 
-import android.support.test.InstrumentationRegistry;
+//import android.support.test.InstrumentationRegistry;
 import android.support.test.uiautomator.UiDevice;
 import android.support.test.uiautomator.UiObject;
 import android.support.test.uiautomator.UiSelector;
 import android.util.Log;
 
+import androidx.test.platform.app.InstrumentationRegistry;
+
 /**
  * Created by Shivaprasad Waradai on 05-10-2017.
  */
 
-public class Utility_Fun   {
+public class Utility_Fun{
 
     private static final String TAG = "Utility_Functions";
     private UiDevice mUiDevice;
@@ -36,7 +38,7 @@ public class Utility_Fun   {
 
 
 
-    //private UiDevice mUiDevice;
+   // private UiDevice mUiDevice;
 
     public static void ufMenu_srch_App(String AppName) throws Exception {
         try {

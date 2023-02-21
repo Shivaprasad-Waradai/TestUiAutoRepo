@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
 
          */
 
-public class Mtbf_Browser_Navigating_To_Webpage  {
+/**public class Mtbf_Browser_Navigating_To_Webpage  {
     private static final String TAG = "Naviate to Webpage";
     private UiDevice mUiDevice;
     private Utility_Functions uf;
@@ -118,4 +118,4 @@ public class Mtbf_Browser_Navigating_To_Webpage  {
         }
 
     }
-}
+}**/

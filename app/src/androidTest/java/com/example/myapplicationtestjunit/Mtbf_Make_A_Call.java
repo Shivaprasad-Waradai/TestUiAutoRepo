@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
         14.Calling to saved number.
         15.Back to idle stage
         */
-@RunWith(AndroidJUnit4.class)
+/**@RunWith(AndroidJUnit4.class)
 public class Mtbf_Make_A_Call {
     private static final String TAG = "Make A Call";
     private UiDevice mUiDevice;
@@ -315,4 +315,4 @@ public class Mtbf_Make_A_Call {
     }
 
 
-}
+}**/

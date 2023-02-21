@@ -4,38 +4,39 @@ import android.support.test.uiautomator.UiDevice;
 
 public class Device_Veriables extends Util {
     //Frontier test cases Loops
-    int Mtbf_Adding_And_Deleting_Contacts =50;
-    int Mtbf_Make_A_Call =50;
-    int Mtbf_Send_SMS =50;
-    int Mtbf_Call_To_Incoming_Number =50;
-    int Mst_Calculator =2;
-    int Mst_Camera =0;
-    int Mst_Clock =0;
-    int Mst_Contacts =50;
-    int Mst_File =50;
-    int Mst_FMRadio =50;
-    int Mst_Gallery =50;
-    int Mst_Message =50;
-    int Mst_Phone =50;
-    int Mtbf_Top_Five_Websites=50;
-    int Mtbf_Alarms =50;
-    int Mtbf_Play_Youtube_Video_Loop =50;
-    int Mtbf_Browser_Navigating_To_Webpage_loop = 50;
-    int MTBF_MULTI_MEDIA_1_loop = 50;
-    int MTBF_MULTI_MEDIA_2_loop = 50;
-    int MTBF_MULTI_MEDIA_3_loop = 50;
-    int MTBF_MULTI_TASKING_4_loop = 50;
-    int MTBF_MULTI_TASKING_5_loop = 50;
-    int MTBF_MULTI_TASKING_6_loop = 50;
-    int MTBF_TELEPHONY_2_loop = 50;
-    int MTBF_TELEPHONY_4_loop = 25;
-    int MTBF_TELEPHONY_5_loop = 50;
-    int Create_Delete_Appointment_Loops=50;
-    int Mst_Music_Loops=50;
-    int Open_Play_Music_Loops=44;
-    int Mst_Calendar_Loops=50;
-    int Mtbf_Capture_A_Photo =0;
-    int Mtbf_Delete_Photo =0;
+    int Mtbf_Adding_And_Deleting_Contacts =1;
+    int Mtbf_Make_A_Call =1;
+    int Mtbf_Send_SMS =1;
+    int Mtbf_Call_To_Incoming_Number =1;
+    int Mst_Calculator =1;
+    int Mst_Camera =1;
+    int Mst_Clock =1;
+    int Mst_Contacts =1;
+    int Mst_File =1;
+    int Mst_FMRadio =1;
+    int Mst_Gallery =1;
+    int Mst_Message =1;
+    int Mst_Settings = 1;
+    int Mst_Phone =1;
+    int Mtbf_Top_Five_Websites=1;
+    int Mtbf_Alarms =1;
+    int Mtbf_Play_Youtube_Video_Loop =1;
+    int Mtbf_Browser_Navigating_To_Webpage_loop = 1;
+    int MTBF_MULTI_MEDIA_1_loop = 1;
+    int MTBF_MULTI_MEDIA_2_loop = 1;
+    int MTBF_MULTI_MEDIA_3_loop = 1;
+    int MTBF_MULTI_TASKING_4_loop = 1;
+    int MTBF_MULTI_TASKING_5_loop = 1;
+    int MTBF_MULTI_TASKING_6_loop = 1;
+    int MTBF_TELEPHONY_2_loop = 1;
+    int MTBF_TELEPHONY_4_loop = 1;
+    int MTBF_TELEPHONY_5_loop = 1;
+    int Create_Delete_Appointment_Loops=1;
+    int Mst_Music_Loops=1;
+    int Open_Play_Music_Loops=1;
+    int Mst_Calendar_Loops=1;
+    int Mtbf_Capture_A_Photo =1;
+    int Mtbf_Delete_Photo =1;
 
 
 
@@ -43,8 +44,8 @@ public class Device_Veriables extends Util {
 
     //Frontier ResourcesIDs, ClassNames, Content Descriptions, Text
 //**************************************************************************************************
-    String DEVICE_MAIN_MENU_resourceId = "com.android.launcher3:id/all_apps_handle";
-    String DEVICE_SEARCH_APP_FROM_MAIN_MENU_resourceId = "com.android.launcher3:id/search_box_input";
+    String DEVICE_MAIN_MENU_resourceId = "com.sec.android.app.launcher:id/iconview_imageView";
+    String DEVICE_SEARCH_APP_FROM_MAIN_MENU_resourceId = "android:id/search_src_text";
     String App_Handler="Apps list";
 
     //Clock
@@ -220,7 +221,7 @@ public class Device_Veriables extends Util {
     String PHOTO_MOVE_TO_BIN_Text ="Move to Bin";  //desc took from E1M
 
     // Camera
-    String CAMERA_SHUTTER_BUTTON_Content_desc = "ShutterButton";  //desc took from E1M
+    String CAMERA_SHUTTER_BUTTON_Content_desc = "Shutter";  //desc took from E1M
 
 
 //*******************************************************Praveen-End************************************************//

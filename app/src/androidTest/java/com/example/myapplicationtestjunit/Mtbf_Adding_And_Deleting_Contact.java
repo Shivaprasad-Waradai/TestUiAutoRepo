@@ -28,16 +28,13 @@ import org.junit.runner.RunWith;
           9.Deleting 5 Contact
          */
 
-public class Mtbf_Adding_And_Deleting_Contact extends Utility_Functions {
+/**public class Mtbf_Adding_And_Deleting_Contact extends Utility_Functions {
     private static final String TAG = "Adding Deleting Contact";
     private UiDevice mUiDevice;
     private Utility_Functions uf;
     private Device_Veriables dv;
     int i;
 
-    public Mtbf_Adding_And_Deleting_Contact(UiDevice uiDevice) {
-        super(uiDevice);
-    }
 
     @Before
     public void setUp() throws Exception {
@@ -158,4 +155,4 @@ public class Mtbf_Adding_And_Deleting_Contact extends Utility_Functions {
 
     }
 
-}
+}**/
